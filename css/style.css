@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+}
+.edithome{
+    background-image: url(../images/background.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 735px;
+    text-align: center;
+}
+.edithometext h1 {
+    font-size: 6rem;
+    color: #cba68d;
+    margin: 0px;
+    padding-top: 200px;
+    font-family: 'open sans';
+}
+.edithometext pre {
+    font-family: pacifico;
+    color: #aa6f4c;
+    margin: 0px;
+    display: inline;
+}
+.edithometext p {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #923600;
+    position: absolute;
+    right: 500px;
+    top: 305px;
+}
+.edithometext div {
+    background-color: #aa6f4c;
+    height: 2px;
+    width: 5%;
+    position: absolute;
+    right: 500px;
+    top: 336px;
+}
+.editabout, .editmyskills {
+    background-color: #fffbf4;
+    text-align: center;
+}
+.editmyskills{
+    padding-bottom: 50px;
+}
+.editabout{
+    padding: 100px 0px 1px 0px;
+}
+.editabout img, .editmyskills img {
+    width: 150px;
+    border-radius: 50%;
+}
+.editabout p {
+    padding: 50px;
+    font-size: 21px;
+    font-family: 'Open Sans';
+    color: #b0a4a4;
+}
+.editabout hr {
+    border: dotted #cb8962 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto;
+}
+.editmyskills h2, .editcontact h2{
+    padding: 50px;
+    font-size: 40px;
+    font-family: 'Pacifico';
+}
+.skilltext h3{
+    text-align: left;
+    color: #7f8784;
+    font-family: 'Open Sans';
+    font-size: 30px;    
+}
+.editcontact h3{
+    color: #7f8784;
+    font-family: 'Open Sans';
+    font-size: 30px; 
+}
+.skilltext{
+    padding: 10px;
+}
+.skilltext p{
+    padding: 0px 50px 50px 0px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #b0a4a4;
+}
+.editcontact p{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #b0a4a4;
+}
+.editcontact {
+    text-align: center;
+    padding: 50px;
+    background-color: #cdd6d3;
+    height: auto;
+}
+.editfooter {
+    background-color: #cb8962;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+}
+.editfooter a {
+    display: inline-block;
+    text-decoration: none;
+    color: #533625;
+    font-size: 16px;
+    padding: 20px;
+}
+.editfooter a:hover {
+    color: #cdd6d3;
+    transition: 0.5s;
+}
+.editfooter a i {
+    color: #cdd6d3;
+}
+.editfooter p {
+    font-size: 16px;
+    margin: 30px;
+    color: #6b432c;
+}
+.editcontact button {
+    width: 160px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 18px;
+    font-family: 'Pacifico';
+    background-color: #cdd6d3;
+    color: #cb8962;
+    border: 1px solid #cb8962;
+}
+.editcontact button:hover {
+    background-color: #cb8962;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+@media (max-width: 280px) {
+    
+    .edithometext h1 {
+        font-size: 5rem;
+    }
+    .edithometext h1 {
+        color: #622b0a;
+    }
+    .edithometext p {
+        position: static;
+    }
+    .edithometext div {
+        display: none;
+    }
+    .skilltext p, .skilltext h3 {
+        text-align: center !important;
+        padding: 0px;
+    }
+    
+}
+@media (min-width: 281px) and (max-width: 576px) {
+    
+    .edithometext h1 {
+        font-size: 6rem;
+    }
+    .edithometext h1 {
+        color: #622b0a;
+    }
+    .edithometext p {
+        position: static;
+    }
+    .edithometext div {
+        display: none;
+    }
+    .skilltext p, .skilltext h3 {
+        text-align: center !important;
+        padding: 0px;
+    }
+    
+}
+@media (min-width: 577px) and (max-width: 768px){
+
+    .edithometext h1 {
+        color: #622b0a;
+    }
+    .edithometext p {
+        position: static;
+    }
+    .edithometext div {
+        display: none;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .edithometext h1 {
+        color: #622b0a;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px){
+    .edithometext h1 {
+        color: #622b0a;
+    }
+    
+}
